@@ -38,6 +38,21 @@ const posts: PostType[] = [
     ],
     publishedAt: new Date("2023-11-10 12:00:00"),
   },
+  {
+    id: 3,
+    author: {
+      avatarUrl: "https://github.com/MiguelMontenegroo.png",
+      name: "Miguel Montenegro",
+      role: "Web Developer"
+    },
+    content: [
+      { type: "paragraph", content: "Novo projetinho" },
+      { type: "paragraph", content: "uma gerenciador de tarefas" },
+      { type: "link", content: "https://todo-list-eight-indol-49.vercel.app/" },
+      { type: "link", content: "https://github.com/MiguelMontenegroo/todo-list" }
+    ],
+    publishedAt: new Date("2023-11-14 09:00:00"),
+  }
 ];
 
 
