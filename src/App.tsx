@@ -52,6 +52,20 @@ const posts: PostType[] = [
       { type: "link", content: "https://github.com/MiguelMontenegroo/todo-list" }
     ],
     publishedAt: new Date("2023-11-14 09:00:00"),
+  }, {
+    id: 4,
+    author: {
+      avatarUrl: "https://github.com/MiguelMontenegroo.png",
+      name: "Miguel Montenegro",
+      role: "Web Developer"
+    },
+    content: [
+      { type: "paragraph", content: "Novo projeto" },
+      { type: "paragraph", content: "desenvolvi um timer para tarefas utilizando styled-components,roteamento com react-router-dom,context,reducers,immer,react-hook-form,zod." },
+      { type: "link", content: "https://timer-miguelmontenegroos-projects.vercel.app/" },
+      { type: "link", content: "https://github.com/MiguelMontenegroo/timer" }
+    ],
+    publishedAt: new Date("2023-12-04 11:00:00"),
   }
 ];
 
