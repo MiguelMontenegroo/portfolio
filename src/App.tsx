@@ -66,6 +66,20 @@ const posts: PostType[] = [
       { type: "link", content: "https://github.com/MiguelMontenegroo/timer" }
     ],
     publishedAt: new Date("2023-12-04 11:00:00"),
+  },{
+    id: 5,
+    author: {
+      avatarUrl: "https://github.com/MiguelMontenegroo.png",
+      name: "Miguel Montenegro",
+      role: "Web Developer"
+    },
+    content: [
+      { type: "paragraph", content: "Novo projeto" },
+      { type: "paragraph", content: "desenvolvi um delivery de café" },
+      { type: "link", content: "https://coffe-delivery-gamma-teal.vercel.app/" },
+      { type: "link", content: "https://github.com/MiguelMontenegroo/coffe-delivery" }
+    ],
+    publishedAt: new Date("2023-12-04 11:00:00"),
   }
 ];
 
