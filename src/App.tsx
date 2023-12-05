@@ -79,7 +79,7 @@ const posts: PostType[] = [
       { type: "link", content: "https://coffe-delivery-gamma-teal.vercel.app/" },
       { type: "link", content: "https://github.com/MiguelMontenegroo/coffe-delivery" }
     ],
-    publishedAt: new Date("2023-12-04 11:00:00"),
+    publishedAt: new Date("2023-12-08 08:00:00"),
   }
 ];
 
